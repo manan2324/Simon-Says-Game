@@ -1,0 +1,46 @@
+body {
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.btn-container {
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    height: 200px;
+    width: 190px;
+    border: 5px solid black;
+    margin: 13px;
+    border-radius: 30px;
+}
+
+.bg-red {
+    background-color: #d95980;
+}
+
+.bg-green {
+    background-color: #63aac0;
+}
+
+.bg-yellow {
+    background-color: #f99b45;
+}
+
+.bg-purple {
+    background-color: #819ff9;
+}
+
+.flash {
+    background-color: #fff;
+}
+
+.userflash {
+    background-color: #008000;
+}
