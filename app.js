@@ -59,7 +59,7 @@ const checkAns = (idx) => {
         }
     } else {
         highScore = Math.max(highScore, level-1);
-        h2.innerHTML = `Game Over! Your score was ${level-1} | Highest Score : ${highScore}<br/> Press any key to start game`;
+        h2.innerHTML = `Game Over! Your score is ${level-1} | Highest Score : ${highScore}<br/> Press any key to start game`;
         reset();
     }
 }
